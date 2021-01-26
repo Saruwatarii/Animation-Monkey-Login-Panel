@@ -10,14 +10,21 @@
      <main class="main-container">
          <div class="login-container">
              <div class="pic-holder-container">
-                 <img src="" alt="" id="hands">
+                 <img src="img/hands.png" alt="Monkey Hands" id="hands">
              </div>
-             <form action="" class="form-container">
-                 <input type="email" id="email" name="" onclick="openeye();" class="tb" placeholder="Email" autocomplete="off" />
-                 <br/>
-                 <br/>
-                 <input type="submit" value="Login" class="sbutton" name="" />
-             </form>
+             <section class="form-container">
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="" onclick="openeye();" class="tb" placeholder="Email" autocomplete="off" />
+                    <br/>
+                    <br/>
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd" onclick="closeye();" class="tb" placeholder="Password">
+                    <br/>
+                    <br/>
+                    <input type="submit" value="Login" class="sbutton" name="" />
+                </form>
+             </section>
          </div>
      </main>
      <script type=”text/javascript” src="js/script.js"></script>

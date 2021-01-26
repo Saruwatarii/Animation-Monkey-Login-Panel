@@ -33,3 +33,37 @@ The login panel vertical and horizontal in the middle
   background-color: whitesmoke;
   border-radius: 7%;
 }
+
+.pic-holder-container {
+  /* Overflow hidden, because we want to hid the arm in the default setting*/
+  overflow: hidden;
+  background-color: white;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+  background-image: url("../img/monkey_pwd.gif");
+  background-size: 90% 85%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+  /*
+  In order to keep the hand image in the center
+  */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pic-holder-container img {
+  margin-top: 110%;
+  height: 200px;
+  width: 200px;
+  transition: 1.5s ease-in-out;
+}
+
+.form-container input {
+  width: 100%;
+}
