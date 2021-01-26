@@ -38,12 +38,13 @@ The login panel vertical and horizontal in the middle
   /* Overflow hidden, because we want to hid the arm in the default setting*/
   overflow: hidden;
   background-color: white;
+
   margin-top: 20px;
   height: 200px;
   width: 200px;
   border-radius: 50%;
 
-  background-image: url("../img/monkey_pwd.gif");
+  background-image: url("../img/monkey-face.png");
   background-size: 90% 85%;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +59,7 @@ The login panel vertical and horizontal in the middle
 }
 
 .pic-holder-container img {
-  margin-top: 110%;
+  margin-top: 55%;
   height: 200px;
   width: 200px;
   transition: 1.5s ease-in-out;
@@ -89,9 +90,8 @@ The login panel vertical and horizontal in the middle
 }
 
 .sbutton {
-  text-indent: 0px;
   height: 2rem;
-
+  width: 100%;
   margin-top: 10px;
   background-color: #fbab7e;
   transition: "2s";
@@ -99,6 +99,7 @@ The login panel vertical and horizontal in the middle
   color: 303030;
   font-weight: bolder;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   outline: none;
   margin-bottom: 2rem;
 }
